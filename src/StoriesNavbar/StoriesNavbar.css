@@ -1,0 +1,39 @@
+.stories-navbar {
+  display: flex;
+  padding: 12px;
+  background-color: #000; 
+  border-bottom: 1px solid #dfdfdf00;
+  overflow-x: auto;
+  white-space: nowrap;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+}
+
+
+.story {
+  margin-right: 13px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid #ff2600f8;
+  transition: border-color 0.3s ease;
+}
+
+.story:hover {
+  border-color: #ff4500;
+}
+
+.story:active {
+  border-color: #ff0000;
+}
+
+.story-avatar {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+.story:hover .story-avatar {
+  transform: scale(1.1);
+}
